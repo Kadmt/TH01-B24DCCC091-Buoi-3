@@ -1,0 +1,46 @@
+/* src/pages/HomePage.css */
+
+.page-title {
+    color: var(--color-primary); 
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.filter-controls-group {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px;
+    margin-bottom: 35px;
+    background-color: var(--color-surface);
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: var(--border-radius);
+}
+
+.filter-input, .filter-select {
+    flex: 1 1 200px; 
+}
+
+.product-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 25px; 
+    margin-bottom: 40px;
+}
+
+.no-products-found {
+    grid-column: 1 / -1; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.alert-info {
+    padding: 15px;
+    background-color: #e9f7fe; 
+    color: var(--color-primary);
+    border: 1px solid #b8daff;
+    border-radius: var(--border-radius);
+    display: inline-block;
+}

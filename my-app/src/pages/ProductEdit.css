@@ -1,0 +1,35 @@
+/* src/pages/ProductEdit.css */
+
+.edit-page-container {
+    padding: 30px;
+    /* Có thể giới hạn chiều rộng của trang edit để trông cân đối hơn */
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.edit-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--color-primary, #007bff);
+    margin-bottom: 25px;
+}
+
+/* Áp dụng styling cho ProductForm trong bối cảnh trang Edit */
+.product-form {
+    background-color: var(--color-white, #ffffff);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.product-edit-not-found {
+    /* Sử dụng styling alert-warning đã định nghĩa trong index.css */
+    padding: 15px;
+    text-align: center;
+}
+
+/* Nút quay lại/hủy (Nếu bạn muốn thêm nút Quay lại bên ngoài form) */
+.back-link-edit {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--color-secondary);
+    text-decoration: none;
+}

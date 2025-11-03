@@ -1,0 +1,28 @@
+/* src/components/products/ProductForm.css */
+
+.product-form {
+    background-color: var(--color-surface, white);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    border-radius: var(--border-radius, 8px);
+    padding: 30px; 
+    border: 1px solid #eee;
+}
+
+.form-group {
+    margin-bottom: 25px; 
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--color-text-dark);
+    margin-bottom: 8px; 
+    display: block;
+}
+
+.submit-button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 14px; 
+    font-size: 1.05em;
+    font-weight: 700;
+}

@@ -1,0 +1,45 @@
+/* src/components/common/Pagination.css */
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid #e9ecef;
+}
+
+.pagination-container p {
+    font-size: 0.95rem;
+    color: var(--color-secondary);
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-item .page-link {
+    display: block;
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: 1px solid #ced4da;
+    border-radius: var(--border-radius);
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page-item.active .page-link {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-color: var(--color-primary);
+    font-weight: 700;
+}
+
+.page-item.disabled .page-link {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

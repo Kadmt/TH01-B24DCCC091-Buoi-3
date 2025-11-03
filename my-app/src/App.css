@@ -1,0 +1,8 @@
+/* src/App.css */
+
+.app-container {
+    width: 100%; 
+    max-width: 1300px; /* Chiều rộng tối đa */
+    margin: 25px auto; /* Căn giữa */
+    padding: 0 20px;
+}
